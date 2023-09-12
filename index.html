@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.style.css">
+    <title>Crood</title>
+</head>
+
+<body>
+    <h2>Cadastro De Equipes</h2>
+    <div>
+        <label for="">Nome da Equipe</label>
+        <input type="text" id="nomeDaEquipe"/>
+
+        <label for="">Jogadores Titulares</label>
+        <input type="number" id="quantidade">
+    </div>
+    <button onclick="criarEquipe()" id="botaoCadastrar">Cadastrar</button>
+    <button onclick class="hidden" id="botaoEditar">Editar Equipe</button>
+
+
+    <div id="listarEquipes"></div>
+    <div id="listarEquipeUnica"></div>
+
+    <script src="assets/js/script.index.js"></script>
+
+</body>
+
+</html>
